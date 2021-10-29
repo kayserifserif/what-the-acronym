@@ -4,36 +4,10 @@
   <meta charset="utf-8">
   <title>What the Acronym</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    header {
-      text-align: center;
-      margin: 5%;
-    }
-
-    .text {
-      font-size: 3em;
-      margin: 10%;
-      text-align: center;
-    }
-      @media (min-width: 800px) {
-        .text {
-          font-size: 4em;
-        }
-      }
-
-    .generate {
-      display: block;
-      margin: auto;
-    }
-
-    .details {
-      margin: 5%;
-      text-align: center;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
+  <header class="header">
     <h1>What the Acronym</h1>
     <p><a href="https://github.com/whykatherine/what-the-acronym">submit more</a></p>
   </header>
@@ -47,75 +21,6 @@
     <div class="terms"></div>
   </details>
 
-  <script>
-    const text = document.querySelector(".text");
-    const button = document.querySelector(".generate");
-    const termsText = document.querySelector(".terms");
-
-    const terms = [
-      "Natural Language Processing",
-      "Non Fungible Tokens",
-      "Hypertext Text Markup Language",
-      "Cascading Style Sheets",
-      "Decentralized Autonomous Organization",
-      "Internet of Things",
-      "Proof of Stake",
-      "Proof of Work",
-      "Generative Adversarial Network",
-      "Recurrent Neural Network",
-      "Mixed Reality Protocol",
-      "Open Source Development",
-      "Generative Adversarial Network",
-      "Cross Platform Distribution",
-      "Web3 Decentralized Trustless System",
-      "Three Letter Acronym",
-      "Carbon Neutral Operation",
-      "Subject Matter Expert",
-      "Generative Pre-trained Transformer",
-      "Head Mounted Display",
-      "Proof of Concept",
-      "Partner in Crime",
-      "Live Laugh Love",
-      "Gaslight Gatekeep Girlboss",
-      "Role Playing Game",
-      "First Person Shooter",
-      "Frames Per Second",
-      "Central Processing Unit",
-      "Graphics Processing Unit",
-      "Secure Hash Algorithm"
-    ];
-
-    function generate() {
-      let str = "";
-      let acronym = "";
-      let numWords = Math.round(Math.random() + 3); // 3 or 4
-      for (let i = 0; i < numWords; i++) {
-        let term = terms[Math.floor(Math.random() * terms.length)];
-        let words = term.split(" ");
-        if (i < words.length) {
-          // add word to string
-          str += words[i] + " ";
-          // add first letter of word to acronym
-          acronym += words[i][0];
-        }
-      }
-      text.innerText = acronym + "\n" + str;
-    }
-
-    document.addEventListener("DOMContentLoaded", () => {
-      // populate terms list
-      for (let term of terms) {
-        let p = document.createElement("p");
-        p.innerText = term;
-        termsText.appendChild(p);
-      }
-
-      // generate
-      generate();
-
-      // generate on click
-      button.addEventListener("click", generate);
-    })
-  </script>
+  <script src="scripts.js"></script>
 </body>
 </html>

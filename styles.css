@@ -1,0 +1,25 @@
+.header {
+  text-align: center;
+  margin: 5%;
+}
+
+.text {
+  font-size: 3em;
+  margin: 10%;
+  text-align: center;
+}
+  @media (min-width: 800px) {
+    .text {
+      font-size: 4em;
+    }
+  }
+
+.generate {
+  display: block;
+  margin: auto;
+}
+
+.details {
+  margin: 5%;
+  text-align: center;
+}
