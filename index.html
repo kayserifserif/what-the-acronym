@@ -38,7 +38,7 @@
     <p><a href="https://github.com/whykatherine/what-the-acronym">submit more</a></p>
   </header>
 
-  <div class="text"><br><br></div>
+  <div class="text"></div>
 
   <button type="button" class="generate">Generate</button>
 
@@ -79,30 +79,43 @@
       "Gaslight Gatekeep Girlboss",
       "Role Playing Game",
       "First Person Shooter",
-      "Frames Per Second"
+      "Frames Per Second",
+      "Central Processing Unit",
+      "Graphics Processing Unit",
+      "Secure Hash Algorithm"
     ];
-    for (let term of terms) {
-      let p = document.createElement("p");
-      p.innerText = term;
-      termsText.appendChild(p);
-    }
-
-    button.addEventListener("click", generate);
 
     function generate() {
       let str = "";
       let acronym = "";
-      for (let i = 0; i < Math.round(Math.random() + 3); i++) {
+      let numWords = Math.round(Math.random() + 3); // 3 or 4
+      for (let i = 0; i < numWords; i++) {
         let term = terms[Math.floor(Math.random() * terms.length)];
         let words = term.split(" ");
         if (i < words.length) {
+          // add word to string
           str += words[i] + " ";
+          // add first letter of word to acronym
           acronym += words[i][0];
         }
       }
       text.innerText = acronym + "\n" + str;
     }
-    generate();
+
+    document.addEventListener("DOMContentLoaded", () => {
+      // populate terms list
+      for (let term of terms) {
+        let p = document.createElement("p");
+        p.innerText = term;
+        termsText.appendChild(p);
+      }
+
+      // generate
+      generate();
+
+      // generate on click
+      button.addEventListener("click", generate);
+    })
   </script>
 </body>
 </html>
