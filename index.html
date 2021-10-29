@@ -75,7 +75,9 @@
       termsText.appendChild(p);
     }
 
-    button.addEventListener("click", () => {
+    button.addEventListener("click", generate);
+
+    function generate() {
       let str = "";
       let acronym = "";
       for (let i = 0; i < Math.round(Math.random() + 3); i++) {
@@ -87,7 +89,8 @@
         }
       }
       text.innerText = acronym + "\n" + str;
-    });
+    }
+    generate();
   </script>
 </body>
 </html>
