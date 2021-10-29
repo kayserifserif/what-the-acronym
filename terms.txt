@@ -1,3 +1,4 @@
+Application Programming Interface
 Carbon Neutral Operation
 Cascading Style Sheets
 Central Processing Unit
@@ -12,12 +13,16 @@ Graphics Processing Unit
 Head Mounted Display
 Hypertext Text Markup Language
 Internet of Things
+Javascript Object Notation
+Keep it Simple Stupid
 Live Laugh Love
 Mixed Reality Protocol
+Model View Controller
 Natural Language Processing
 Non Fungible Tokens
 Open Source Development
 Partner in Crime
+Progressive Web App
 Proof of Concept
 Proof of Stake
 Proof of Work
@@ -26,4 +31,6 @@ Role Playing Game
 Secure Hash Algorithm
 Subject Matter Expert
 Three Letter Acronym
+Two Factor Authentication
+User Experience
 Web3 Decentralized Trustless System
