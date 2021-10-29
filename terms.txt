@@ -16,9 +16,9 @@ Graphics Processing Unit
 Head Mounted Display
 Hypertext Text Markup Language
 Internet of Things
-Key Performance Indicator
 Javascript Object Notation
-Keep it Simple Stupid
+Keep It Simple Stupid
+Key Performance Indicator
 Live Laugh Love
 Mixed Reality Protocol
 Model View Controller
@@ -34,10 +34,10 @@ Proof of Concept
 Proof of Stake
 Proof of Work
 Recurrent Neural Network
+Return on Investment
 Role Playing Game
 Secure Hash Algorithm
 Subject Matter Expert
 Three Letter Acronym
 Two Factor Authentication
-User Experience
 Web3 Decentralized Trustless System
