@@ -1,6 +1,6 @@
 # what the acronym
 
-please add more acronyms/initialisms thank you :)
+please add more three to four word acronyms/initialisms thank you :)
 
 Some random favorites so far:
 
