@@ -4,8 +4,12 @@
 }
 
 .text {
-  font-size: 3em;
+  display: flex;
   margin: 10%;
+  height: 45vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
   text-align: center;
 }
   @media (min-width: 800px) {
