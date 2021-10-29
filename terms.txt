@@ -1,8 +1,11 @@
 Carbon Neutral Operation
 Cascading Style Sheets
 Central Processing Unit
+Comma Separated Values
 Cross Platform Distribution
 Decentralized Autonomous Organization
+Document Object Model
+Employee Resource Group
 First Person Shooter
 Frames Per Second
 Gaslight Gatekeep Girlboss
@@ -12,12 +15,16 @@ Graphics Processing Unit
 Head Mounted Display
 Hypertext Text Markup Language
 Internet of Things
+Key Performance Indicator
 Live Laugh Love
 Mixed Reality Protocol
 Natural Language Processing
 Non Fungible Tokens
+Offscreen Graphics Buffer
 Open Source Development
 Partner in Crime
+Point of Contact
+Portable Network Graphics
 Proof of Concept
 Proof of Stake
 Proof of Work
