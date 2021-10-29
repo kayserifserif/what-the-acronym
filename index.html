@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    h1 {
+      text-align: center;
+      margin: 5%;
+    }
+    .text {
+      font-size: 4em;
+      margin: 10%;
+      text-align: center;
+    }
+
+    .generate {
+      display: block;
+      margin: auto;
+    }
+
+    .details {
+      margin: 5%;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>What the Acronym</h1>
+
+  <div class="text"><br><br></div>
+
+  <button type="button" class="generate">Generate</button>
+
+  <details class="details">
+    <summary>View list</summary>
+    <div class="terms"></div>
+  </details>
+
+  <script>
+    const text = document.querySelector(".text");
+    const button = document.querySelector(".generate");
+    const termsText = document.querySelector(".terms");
+
+    const terms = [
+      "Natural Language Processing",
+      "Non Fungible Tokens",
+      "Hypertext Text Markup Language",
+      "Cascading Style Sheets",
+      "Decentralized Autonomous Organization",
+      "Internet of Things",
+      "Proof of Stake",
+      "Proof of Work",
+      "Generative Adversarial Network",
+      "Recurrent Neural Network",
+      "Mixed Reality Protocol",
+      "Open Source Development",
+      "Generative Adversarial Network",
+      "Cross Platform Distribution",
+      "Web3 Decentralized Trustless System",
+      "Three Letter Acronym",
+      "Carbon Neutral Operation",
+      "Subject Matter Expert",
+      "Generative Pre-trained Transformer",
+      "Head Mounted Display",
+      "Proof of Concept",
+      "Partner in Crime",
+      "Live Laugh Love",
+      "Gaslight Gatekeep Girlboss"
+    ];
+    for (let term of terms) {
+      let p = document.createElement("p");
+      p.innerText = term;
+      termsText.appendChild(p);
+    }
+
+    button.addEventListener("click", () => {
+      let str = "";
+      let acronym = "";
+      for (let i = 0; i < Math.round(Math.random() + 3); i++) {
+        let term = terms[Math.floor(Math.random() * terms.length)];
+        let words = term.split(" ");
+        if (i < words.length) {
+          str += words[i] + " ";
+          acronym += words[i][0];
+        }
+      }
+      text.innerText = acronym + "\n" + str;
+    });
+  </script>
+</body>
+</html>
