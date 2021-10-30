@@ -6,7 +6,7 @@
 .text {
   display: flex;
   margin: 10%;
-  height: 45vh;
+  height: 40vh;
   align-items: center;
   justify-content: center;
   font-size: 3em;
