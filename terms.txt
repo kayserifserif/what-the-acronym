@@ -1,12 +1,15 @@
 Application Programming Interface
 Carbon Neutral Operation
 Cascading Style Sheets
+Cathode Ray Tube
 Central Processing Unit
 Comma Separated Values
+Computer Processing Unit
 Cross Platform Distribution
 Decentralized Autonomous Organization
 Document Object Model
 Employee Resource Group
+File Transfer Protocol
 First Person Shooter
 Frames Per Second
 Gaslight Gatekeep Girlboss
@@ -15,6 +18,7 @@ Generative Pre-trained Transformer
 Graphics Processing Unit
 Head Mounted Display
 Hypertext Text Markup Language
+Hypertext Transfer Protocol
 Internet of Things
 Javascript Object Notation
 Keep It Simple Stupid
@@ -28,11 +32,14 @@ Offscreen Graphics Buffer
 Open Source Development
 Partner in Crime
 Point of Contact
+Portable Document Format
 Portable Network Graphics
 Progressive Web App
 Proof of Concept
 Proof of Stake
 Proof of Work
+Random Access Memory
+Read Only Memory
 Recurrent Neural Network
 Return on Investment
 Role Playing Game
@@ -40,4 +47,7 @@ Secure Hash Algorithm
 Subject Matter Expert
 Three Letter Acronym
 Two Factor Authentication
+Universal Serial Bus
+Virtual Private Network
 Web3 Decentralized Trustless System
+World Wide Web
